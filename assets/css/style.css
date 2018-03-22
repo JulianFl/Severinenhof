@@ -1,0 +1,459 @@
+:root {
+    --akzentfarbe: #047a1d
+
+
+
+
+
+;
+}
+/*Farben:
+grün:       #047a1d
+dunkelgrün: #1b5d1b
+rot:        #e30613
+orange:     #e17230
+*/
+/******Allgemeines*******/
+.card{width: 100%}
+.anker{    position: relative;
+    display: block;
+    height: 0;
+    padding-bottom: 100px;
+    z-index: -1;
+    color:transparent;
+}
+html,body{  margin: 0;padding: 0;max-width: 1920px;}
+h1{margin: 0;font-size: 2.2rem;color: white;}
+
+.container-fluid .container{height: 100%}
+.container-fluid .container .row{height: 100%}
+
+section{margin-bottom: 80px;position: relative}
+
+h2{font-size: 2.5rem;margin-bottom: 40px;}
+.navbar-light .navbar-toggler{border-color: rgba(0,0,0,0);}
+
+h2:after {
+    display: inline-block;
+    margin: 0 0 8px 20px;
+    height: 4px;
+    content: " ";
+    text-shadow: none;
+    background-color: var(--akzentfarbe);
+    width: 120px;
+}
+h2:before {
+    display: inline-block;
+    margin: 0 20px 8px 0;
+    height: 4px;
+    content: " ";
+    text-shadow: none;
+    background-color: var(--akzentfarbe);
+    width: 120px;
+}
+.ueberuns h2:before{content: '';
+    width:40px;
+    margin-left: -60px;
+    top:4.4rem;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+}
+.ueberuns h2:after{content: '';
+    width:40px;
+    margin-left: 20px;
+    top:4.4rem;
+    height: 3px;
+    background-color:  white ;
+    position: absolute;
+}
+h5{font-size: 2rem}
+
+p,h2,h1,h3,h4,h5{font-family: 'Raleway',sans-serif;text-align: center}
+
+/*Buttons*/
+.abutton{margin-top: 20px;padding: 10px 20px;color: var(--akzentfarbe); border-color: var(--akzentfarbe)  ;border-radius: 4% ;border: var(--akzentfarbe) 1px solid;}
+.abutton:hover{background-color: var(--akzentfarbe);color: white;transition: all 450ms;}
+.Severinenhof .margin-button{margin-top: 3%}
+.Ferienwohnung .margin-button{margin-top: 9%}
+.Kontakt .margin-button{margin-top: 0}
+ a:hover {text-decoration: none !important}
+
+.senden{margin-top: 10px;padding: 10px 20px;color: var(--akzentfarbe);cursor: pointer;background-color: transparent; border-color: var(--akzentfarbe)  ;border-radius: 4% ;border: var(--akzentfarbe) 1px solid;}
+.senden:hover{background-color: var(--akzentfarbe);color: white;transition: all 450ms;}
+
+figcaption{background-color: var(--akzentfarbe) !important;opacity: .6;padding-top: 20px;
+    padding-bottom: 20px; }
+
+
+
+nav li{    font-size: 1rem;
+    font-weight: 600;margin-left: 10px}
+
+
+
+
+
+/*---------------header-------------*/
+nav li:hover .dropdown-menu{display: block;position: fixed;}
+nav{width: 100%;padding-top:10px;background-color: white;height: 45px;max-width: 100%;border-bottom: 1px solid black;opacity: .8}
+nav .navbar-nav{background-color:white;max-width: 100%;}
+.navbar{position: fixed !important;z-index: 99999;border-bottom: 1px solid black;max-width: 100%}
+
+.navbar-light .navbar-toggler{color: white}
+.navbar-light .navbar-nav .nav-link{color: black}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{opacity: .8}
+
+
+.navbar-nav{background-color:  #047a1d;border-radius: 2%;text-align: center}
+
+
+
+
+
+/*---------------slider-------------*/
+.slider{
+    top:0px;
+    max-width:100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.slider .carousel{ max-width:100%;width: 100%;overflow: hidden}
+.carousel-inner{max-width:100%;position:relative;width: 100%;/*height: 100vh;*/overflow: hidden}
+.carousel-item{/*height: 100vh;position: absolute*/max-width:100%;width: 100%}
+
+
+/*
+.slider .start {background-image: url("../../content/1-home/Bild2.JPG");background-position: center 80%;background-size: cover;}
+.slider .start1 {background-image: url("../../content/1-home/slider2.jpg");background-position: center center;background-size: cover;}
+.slider .start2 {background-image: url("../../content/1-home/slider3.jpg");background-position: center center;background-size: cover;}
+*/
+article{width:100%;padding-bottom: 20px;padding-top:20px;left:0;bottom: 15px;right:0;text-align: center;background-color:var(--akzentfarbe);opacity: .75;z-index:3;position: absolute;}
+article .container{height: 100%}
+article .container .row{height: 100%}
+
+
+.slider .col-12{padding: 0}
+/*---------------Severinenhof-------------*/
+/*.SpielSpass{background-color: var(--akzentfarbe); padding-top:3%; padding-bottom:3%;}
+*/.Severinenhof{ width: 100%;position: relative;max-width:100%; }  .Severinenhof .row{position: relative}
+.Severinenhof .col-md-12{text-align: center;}
+
+
+.Severinenhof p{font-size: 1rem ; }
+.navSeverinenhof{margin-right: 13%}
+
+/*---------------überuns-------------*/
+.ueberuns{width: 100%;max-width:1920px;margin-bottom: 120px}
+.ueberuns .col-lg-9{position: relative;margin: 0;padding: 0;background-image: url("../../content/1-home/Family.jpg");background-size: cover;background-position: center center}
+.ueberuns .col-lg-3 {background-color: var(--akzentfarbe);position: relative;padding:3% 1%; min-height: 700px}
+.ueberuns .col-lg-3 p{color: white;text-align: left;font-size: 1rem}
+.ueberuns .col-lg-3 h2{color: white;margin-bottom: 10px !important}
+/*---------------zuHause-------------*/
+.zuHause{position: absolute;margin: 0;z-index: 4;top: 600px;background-color:var(--akzentfarbe) ;width:300px !important;height:200px; margin-left: 100px !important; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.zuHause p{padding-top: 20px;font-size: 1.3rem;   color: white;}
+.zuHause img{position: absolute;top: -40px;left: 40px}
+/*---------------Ferienwohnungen-------------*/
+.Ferienwohnung{position: relative;width: 100%;max-width: 1920px;}
+.Ferienwohnung .card {text-align: center;}
+/*---------------Platzhalter-------------*/
+.platzhalter{width:100%;max-width:100%;position: relative;}
+/*---------------Kontakt-------------*/
+.Kontakt{position: relative;width: 100%;max-width:100%;}
+.Kontakt iframe{text-align: center;margin-bottom: 50px;width: 100%}
+.Kontakt div{text-align: center}
+/*---------------footer-------------*/
+footer .col-md-4{text-align: center}
+footer a{color: white;font-size: 1rem;}
+footer a:hover{transition: 0.3s;opacity: .8;color: white}
+footer h2{margin-bottom: 5px !important;color: white}
+footer p{color: white}
+footer{width: 100%;background-color: var(--akzentfarbe);color:white;position:relative;max-width:1920px;bottom: 0 !important;padding: 15px 5px}
+
+footer .col-md-4 strong{border-top: white solid 1px;
+    padding-top: 10px;}
+    /**********************************************
+
+
+    Severinenhof
+
+
+    */
+
+/*---------------header-------------*/
+.header-bild-Severinenhof{width: 100%;max-width: 100%;position: relative;}
+.header-bild-Severinenhof .col-12{padding: 0}
+
+
+/*---------------section1-------------*/
+.severinenhof1{margin-bottom: 10px}
+.severinenhof1 p ,.SpielSpass p, .Viechereien p{text-align: left}
+
+/*---------------SpielSpass-------------*/
+.SpielSpass{margin-bottom: 10px}
+.SpielSpass .col-12{margin-bottom: 20px}
+.SpielSpass .col-md-6{text-align: center;}
+.SpielSpass .row{margin-bottom: 20px}
+.SpielSpass img:hover{
+    -webkit-transform:scale(1.1,1.1);
+    -moz-transform:scale(1.1,1.1)}
+
+.SpielSpass img{
+    -webkit-transform:scale(1,1);
+    -webkit-transition: all .5s ease !important;
+    -webkit-transition-property: all !important;
+    -webkit-transition-duration: .5s !important;
+    -webkit-transition-timing-function: ease !important;
+    -webkit-transition-delay: initial; !important;
+
+-moz-transform:scale(1,1);
+-moz-transition:all .5s ease !important;
+-moz-transition-property:all !important;
+-moz-transition-duration: .5s !important;
+-moz-transition-timing-function: ease !important;
+-moz-transition-delay: initial; !important;}
+
+
+
+/*---------------Viechereien-------------*/
+
+.Viechereien .row{text-align: center;height: auto}
+.Viechereien .Text{height: auto}
+
+.Viechereien .col-md-9 {overflow: hidden;margin-bottom: 10px}
+.Viechereien .col-md-3 {overflow: hidden;margin-bottom: 10px}
+
+
+.Viechereien .col-md-6 {overflow: hidden;margin-bottom: 10px}
+.Viechereien .col-md-3 {overflow: hidden;margin-bottom: 10px}
+.Viechereien .col-md-3 {overflow: hidden;margin-bottom: 10px}
+
+.Viechereien figcaption{
+
+    width: 100%;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    background-color: var(--akzentfarbe);
+    opacity: .6;
+    height: auto;
+}
+
+.Viechereien h5{margin-bottom: 0}
+/*---------------Aktuelles-------------*/
+.header-bild-Aktuelles .col-12{padding: 0}
+.aktuelles .col-md-4{margin-bottom: 20px}
+.angebote .col-md-4{margin-bottom: 20px}
+
+.aktuelles .card{border-color:var(--akzentfarbe);}
+.angebote .card{border-color:var(--akzentfarbe);}
+
+.angebote .card:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.aktuelles .card:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.aktuelles h3{margin-bottom: 40px ;text-align: left}
+
+/*---------------Ferienwohnungen-------------*/
+.header-bild-Ferienwohnung{margin-bottom: 10px;}
+.FerienwohnungU{margin-bottom: 10px}
+.header-bild-Ferienwohnung .col-12{padding: 0}
+.FerienwohnungU p{text-align: left}
+.FerienwohnungO p{text-align: left}
+
+.FerienwohnungU .row{margin-bottom: 20px}
+.FerienwohnungO .row{margin-bottom: 20px}
+.FerienwohnungU .row figcaption .row{margin-bottom: 0 !important;}
+.FerienwohnungU .row figcaption .row h5{margin-bottom: 0 !important;}
+.FerienwohnungU img:hover{opacity: .5;transition: .1s all !important}
+
+
+.FerienwohnungU figcaption{
+
+    width: 100%;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    color: white; !important;
+    background-color: var(--akzentfarbe);
+    opacity: .6;
+    height: auto;
+}
+.FerienwohnungO figcaption{
+
+    width: 100%;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    color: white; !important;
+    background-color: var(--akzentfarbe);
+    opacity: .6;
+    height: auto;
+}
+.FerienwohnungO .row figcaption .row{margin-bottom: 0 !important;}
+.FerienwohnungO .row figcaption .row h5{margin-bottom: 0 !important;}
+
+.FerienwohnungO img:hover{opacity: .5;transition: .1s all !important}
+/*
+.FerienwohnungU .col-md-5 p{background-color:var(--akzentfarbe);padding: 20px ;min-height: 183px;color: white  }
+.FerienwohnungU .col-md-6 p{background-color:var(--akzentfarbe);padding: 20px ;color: white  }
+.FerienwohnungU .paddingbox p {background-color:var(--akzentfarbe);min-height: 304px;padding: 20px }
+.FerienwohnungU .paddingbox2 p {background-color:var(--akzentfarbe);min-height: 200px;padding: 20px }
+.FerienwohnungU .paddingbox3 p {background-color:var(--akzentfarbe);min-height: 210px;padding: 20px }
+
+.FerienwohnungO .col-md-6 p{background-color:var(--akzentfarbe);padding: 20px ;color: white;text-align: left;min-height: 292px  }
+.FerienwohnungO .col-md-3 p{background-color:var(--akzentfarbe);padding: 20px ;color: white;text-align: left ; min-height:465px }
+.FerienwohnungO .ferienwohnungO_height p{background-color:var(--akzentfarbe);padding: 20px ;color: white;text-align: left ; min-height:262px }
+*/
+.list-group{position: fixed}
+#navbar-example2 {top:45px;}
+#navbar-example2 .nav-link{color: black}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{background-color: var(--akzentfarbe)}
+/*---------------Ferienwohnungen-------------*/
+.header-bild-Kontakt .col-12 {padding:0;}
+
+
+/*---------------Kontakt-------------*/
+.liste .col-md-4{margin-bottom: 20px}
+.liste .card{border-color:var(--akzentfarbe);}
+.liste .card:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.liste h3{margin-bottom: 40px ;text-align: left}
+
+.kontakt{position: relative;width: 100%;max-width:100% !important;background-image: url("../../content/5-kontakt/SANY0508.jpg");background-position: 60% center;background-size: cover;background-repeat: no-repeat;padding-top:10%;padding-bottom: 10%}
+.kontakt .col-md-12{text-align: center;position: relative;color: black}
+.auszeichnung{padding:0 8%}
+
+#accordion .row{margin-bottom: 10px}
+#accordion .row p{line-height: 1}
+#accordion .card-header{background-color:var(--akzentfarbe);}
+#accordion .card-header a{color: white}
+
+
+.iframe iframe{text-align: center;width: 100%;}
+
+.header-bild-imprint .container-fluid{padding: 0}
+.header-bild-imprint .container-fluid .row{max-width: 100%;margin: 0}
+
+.header-bild-imprint .container-fluid .col-12{padding: 0;max-width: 100%}
+
+.impressum{max-width: 100%}
+.impressum p{max-width: 100%  }
+
+@media (min-width: 1920px) {
+body,html{margin: 0 auto;}
+}
+
+
+
+@media (max-width: 992px) {
+
+    #navbar-example2{
+        top: auto;
+        bottom: 0;
+        text-align: center;
+    }
+    #navbar-example2 .nav-link {
+
+        padding: 0.2rem 1rem;}
+    .pseudoelement{height:50px}
+
+    .navbar-nav{border-radius: 2%;}
+    .navbar{position: fixed}
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{opacity: .8 !important}
+
+    nav li:hover .dropdown-menu{display: none;position: absolute}
+
+
+    .zuHause{
+        display: none;}
+
+    .ueberuns .col-12{height: 350px ;}
+    .ueberuns .ueber{min-height: 250px ;}
+    nav{opacity: 1}
+    .navbar-collapse{border: 1px solid black; border-radius: 2%}
+
+    .ueberuns h2:before{display: none;
+    }
+    .ueberuns h2:after{display: none;
+    }
+
+}
+@media (max-width: 769px) {
+
+    .slider h1{font-size: 1.5rem;}
+    .Ferienwohnung .container .row .col-md-6{margin-bottom: 20px}
+    h2{font-size: 2rem}
+    .zuHause{
+        visibility: hidden;}
+
+    .FerienwohnungU .col-md-4{margin-bottom: 20px}
+    .FerienwohnungO .col-md-4{margin-bottom: 20px}
+/*
+
+    .ueberuns h2:before{content: '';
+        width:40px;
+        margin-left: -60px;
+        top:2.5rem;
+        height: 3px;
+        background-color: white;
+        position: absolute;
+    }
+    .ueberuns h2:after{content: '';
+        width:40px;
+        margin-left: 20px;
+        top:2.5rem;
+        height: 3px;
+        background-color:  white ;
+        position: absolute;
+    }*/
+}
+@media (max-width: 576px) {
+    .slider h1{font-size: 1rem;}
+    .ueberuns .col-12 p{font-size: 0.8em !important;}
+    .ueberuns .col-12 hr{margin-top:2px;margin-bottom: 2px}
+    .ueberuns .col-12 h2{font-size: 1em}
+
+    #navbar-example2 li{
+     font-size: .8rem;
+    }
+
+    .SpielSpass .col-12{margin-bottom: 20px}
+    .Viechereien .col-12{margin-bottom: 20px}
+
+
+
+    h2{font-size: 1.5rem}
+    .zuHause{
+        visibility: hidden;}
+
+    h2:before{display: none;
+    }
+    h2:after{display: none;
+    }
+
+    .ueberuns h2:before{display: none;
+    }
+    .ueberuns h2:after{display: none;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+
+}
+.cc_container .cc_btn, .cc_container .cc_btn:visited {
+    color: white !important;
+    background-color: #047a1d !important;
+}
+
+

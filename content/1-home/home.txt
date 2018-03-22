@@ -1,0 +1,125 @@
+Title: Herzlich Willkommen auf dem Severinenhof
+
+----
+
+Intro: 
+
+##Der Severinenhof
+<hr>
+Der Severinenhof wurde vor rund 150 Jahren für Severin Moosmann erbaut.
+
+Seit 1994 steht unweit des Hofes, idyllisch eingebettet in Wiesen und Wälder,<br> ohne jeden Durchgangsverkehr das Leibgedinghaus, in dem sich die Ferienwohnungen befinden.
+
+Das Bauernhaus wurde 2009/10 von Grund auf saniert und bekam eine typvolle, neue Fassade. 
+Es wurde ausschließlich Fichten- und Tannenholz aus dem eigenen Wald verwendet.
+
+----
+
+Text: 
+
+## Get started
+
+- Go to the (link: panel text: Panel) to give Kirby's admin interface a try
+- Check out the (link: http://getkirby.com/docs text: docs) and start building your own site
+- Follow (twitter: @getkirby) on Twitter for updates
+- Visit the (link: http://forum.getkirby.com text: forum) to connect with other Kirby users
+- Sign up to (link: https://getkirby.com/#kosmos text: Kirby Kosmos), our monthly newsletter
+- (link: http://getkirby.com/support text: Get in contact) if you need support.
+
+**Have fun with Kirby!**
+
+----
+
+Ueberschrift: Der Severinenhof
+
+----
+
+Ueberschriftueberuns: Über uns
+
+----
+
+Ueberuns: 
+
+##Über uns
+Wir, das sind die “Moosmänner- und Frauen”, Stefan, Monika, Lisa (Jg 97), Leonie (Jg 99) und Jakob (Jg 01).
+
+Zuhause sind wir in einem schönen Seitental Tennenbronns dem Gersbach. Hier betreiben wir unseren kleinen aber feinen Hof im Nebenerwerb und bieten im “Leibgedinghaus” gleich neben dem Hof zwei Ferienwohnungen an. Damit alles reibungslos klappt und Mensch und Tier glücklich miteinander sind hat ein jeder seine Aufgabe und hilft mit wo es eben nötig ist.
+
+Etwas zu tun gibt es auf dem Bauernhof immer und wer möchte ist herzlich eingeladen im Stall, auf den Wiesen oder auch mal im Wald mitzuhelfen!
+
+----
+
+Zuhause: 
+
+Das zu Hause sein
+teilen mit dem der kommt,
+Fremder oder Freund,
+einfach ein Stück
+Geborgenheit verschenken.
+
+----
+
+Zuhausequote: quotation.svg
+
+----
+
+Ferienhausuimg: Ferienhausansicht_1.jpg
+
+----
+
+Ferienhausu: 
+
+####**Ferienwohnung U**
+Die modern eingerichtete Wohnung bietet ihnen eine komplett ausgestattete Küche, ein Wohnzimmer, ein Schlafzimmer mit Doppelbett, ein kleines Kinderzimmer mit Einzelbett...
+
+----
+
+H1: xxx
+
+----
+
+Ferienhausoimg: Leibgeding 1.JPG
+
+----
+
+Ferienhauso: 
+
+####**Ferienwohnung O**
+In der großzügigen 4-Sterne Wohnung “O”  können sich bis zu 8 Personen so richtig wohl fühlen. Die Wohnung verfügt über circa 120 qm auf 2 Etagen...
+
+----
+
+Platzhalter: Sonnenuntergang.jpg
+
+----
+
+Severinenhof: 
+
+##Der Severinenhof
+
+Der Severinenhof wurde vor rund 150 Jahren für Severin Moosmann erbaut.
+
+Seit 1994 steht unweit des Hofes, idyllisch eingebettet in Wiesen und Wälder,<br> ohne jeden Durchgangsverkehr das Leibgedinghaus, in dem sich die Ferienwohnungen befinden.
+
+Das Bauernhaus wurde 2009/10 von Grund auf saniert und bekam eine typvolle, neue Fassade. 
+Es wurde ausschließlich Fichten- und Tannenholz aus dem eigenen Wald verwendet.
+
+----
+
+Slider1: Kuehe.jpg
+
+----
+
+Slider2: Bild2.JPG
+
+----
+
+Slider3: Aussicht.jpg
+
+----
+
+Headline: ##Die Ferienwohnungen
+
+----
+
+Headline1: ##Kontakt
