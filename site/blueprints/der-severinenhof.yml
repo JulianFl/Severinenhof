@@ -1,0 +1,136 @@
+itle: Der Severinenhof
+
+template: der-severinenhof
+
+files: true
+
+fields:
+
+  titelbild:
+    label: Titelbild
+    type: image
+
+  title:
+    label: Title
+    type: title
+    
+  severinenhof1:
+    label: Text
+    type: textarea
+    width: 1/2
+
+  severinenhof2:
+    label: Text
+    type: textarea
+    width: 1/2
+
+  headline1:
+      label: Text
+      type: Text
+
+  spielundspass:
+    label: Text
+    type: textarea
+    width: 1/2
+
+  spielundspass1:
+    label: Text
+    type: textarea
+    width: 1/2
+
+  tischkicker:
+      label: image1
+      type: image
+      width: 1/2
+
+  trampolin:
+        label: image2
+        type: image
+        width: 1/2
+
+  spaziergang:
+        label: image3
+        type: image
+        width: 1/2
+
+  rutsche:
+        label: image4
+        type: image
+        width: 1/2
+
+  grillen:
+        label: image5
+        type: image
+        width: 1/2
+
+  tischtennis:
+        label: image6
+        type: image
+        width: 1/2
+
+  headline2:
+      label: Überschrift2
+      type: Text
+
+  einleitung1:
+      label: Text
+      type: textarea
+      width: 1/2
+
+  einleitung2:
+      label: Text
+      type: textarea
+      width: 1/2
+
+  kuehe:
+      label: image
+      type: image
+      width: 1/2
+
+  katze:
+        label: image
+        type: image
+        width: 1/2
+
+  caption:
+      label: Beschreibung
+      type: Text
+      width: 1/2
+
+  caption1:
+      label: Beschreibung
+      type: Text
+      width: 1/2
+
+
+  hund:
+        label: image
+        type: image
+        width: 1/3
+
+
+  pferde:
+        label: image
+        type: image
+        width: 1/3
+
+
+  hasen:
+        label: image
+        type: image
+        width: 1/3
+
+  caption2:
+      label: Beschreibung
+      type: Text
+      width: 1/3
+
+  caption3:
+      label: Beschreibung
+      type: Text
+      width: 1/3
+
+  caption4:
+      label: Beschreibung
+      type: Text
+      width: 1/3

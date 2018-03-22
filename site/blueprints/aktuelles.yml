@@ -1,0 +1,68 @@
+title: Aktuelles
+
+template: aktuelles
+
+pages: false
+
+fields:
+  title:
+     label: Title
+     type: title
+
+  titelbild:
+    label: Titelbild
+    type: image
+
+  headline1:
+        label: Überschrift
+        type: Text
+
+  angebot:
+      label: Text
+      type: textarea
+      width: 1/3
+
+  angebot1:
+      label: Text
+      type: textarea
+      width: 1/3
+
+  angebot2:
+      label: Text
+      type: textarea
+      width: 1/3
+
+
+  headline:
+      label: Überschrift
+      type: Text
+
+  news1:
+      label: Text
+      type: textarea
+      width: 1/3
+
+  news2:
+      label: Text
+      type: textarea
+      width: 1/3
+
+  news3:
+      label: Text
+      type: textarea
+      width: 1/3
+
+  news4:
+      label: Text
+      type: textarea
+      width: 1/3
+
+  news5:
+      label: Text
+      type: textarea
+      width: 1/3
+
+  news6:
+      label: Text
+      type: textarea
+      width: 1/3

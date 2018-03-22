@@ -1,0 +1,106 @@
+title: Kontakt
+
+pages: false
+
+template: kontakt.php
+
+fields:
+  title:
+    label: Titel
+    type: title
+
+  titelbild:
+    label: titelbild
+    type: image
+
+  box1:
+    label: Ferienwohnung U
+    type: textarea
+    width: 1/2
+
+  box2:
+      label: Ferienwohnung U
+      type: textarea
+      width: 1/2
+
+  box3:
+    label: Ferienwohnung U
+    type: textarea
+    width: 1/2
+
+  box4:
+    label: Ferienwohnung U
+    type: textarea
+    width: 1/2
+
+  saisonzeiten:
+    label: Saisonzeiten
+    type: textarea
+
+  box5:
+    label: Ferienwohnung O
+    type: textarea
+    width: 1/2
+
+  box6:
+    label: Ferienwohnung O
+    type: textarea
+    width: 1/2
+
+  box7:
+    label: Ferienwohnung O
+    type: textarea
+    width: 1/2
+
+  box8:
+    label: Ferienwohnung O
+    type: textarea
+    width: 1/2
+
+  saisonzeiten1:
+    label: Saisonzeiten
+    type: textarea
+
+  headline:
+    label: headline
+    type: Text
+
+  liste1:
+    label: Liste
+    type: textarea
+    width: 1/2
+
+  liste2:
+      label: Liste
+      type: textarea
+      width: 1/2
+
+  liste3:
+    label: Liste
+    type: textarea
+    width: 1/2
+
+  liste4:
+    label: Liste
+    type: textarea
+    width: 1/2
+
+  liste5:
+    label: Liste
+    type: textarea
+    width: 1/2
+
+  liste6:
+    label: Liste
+    type: textarea
+    width: 1/2
+
+  kontakt:
+    label: Kontakt
+    type: textarea
+    width: 1/2
+
+  kontakt1:
+    label: image
+    type: image
+    width: 1/2

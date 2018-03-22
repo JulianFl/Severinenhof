@@ -25,7 +25,7 @@ RewriteRule ^(.*)$ https://www.severinenhof.de/$1 [R,L]
 # In some enviroments it's necessary to
 # set the RewriteBase to:
 #
-# RewriteBase /
+RewriteBase /
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ index.php [L]

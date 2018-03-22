@@ -1,0 +1,12 @@
+title: Aktuelles
+
+pages: false
+
+fields:
+  title:
+     label: Title
+     type: title
+
+  Liste:
+      label: Text
+      type: textarea
