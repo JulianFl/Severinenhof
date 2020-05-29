@@ -1,0 +1,95 @@
+title: Kontakt
+
+pages: false
+
+template: kontakt.php
+
+fields:
+  keywords:
+    label: Keywords
+    type: textarea
+    width: 1/2
+
+  description:
+    label: description
+    type: textarea
+    width: 1/2
+
+  title:
+    label: Titel
+    type: title
+
+  titelbild:
+    label: titelbild
+    type: image
+
+  contactoptions1:
+      label: Ferienwohnung U
+      type: structure
+      style: table
+      fields:
+        title1:
+          label: Title
+          type: Text
+        text1:
+          label: Text
+          type: text
+
+  saisonzeiten:
+    label: Saisonzeiten
+    type: textarea
+
+  contactoptions2:
+        label: Ferienwohnung O
+        type: structure
+        style: table
+        fields:
+          title:
+            label: Title
+            type: Text
+          text2:
+            label: Text
+            type: textarea
+
+  saisonzeiten1:
+    label: Saisonzeiten
+    type: textarea
+
+  contactoptions3:
+        label: Ferienwohnung B
+        type: structure
+        style: table
+        fields:
+          title3:
+            label: Title
+            type: Text
+          text3:
+            label: Text
+            type: textarea
+
+  saisonzeiten3:
+    label: Saisonzeiten
+    type: textarea
+
+  headline:
+    label: headline
+    type: Text
+
+  contactoptions:
+     label: Sonstiges
+     type: structure
+     style: table
+     fields:
+       text:
+         label: Text
+         type: textarea
+
+  kontakt:
+    label: Kontakt
+    type: textarea
+    width: 1/2
+
+  kontakt1:
+    label: image
+    type: image
+    width: 1/2

@@ -1,0 +1,57 @@
+title: Aktuelles
+
+template: aktuelles
+
+pages: false
+
+fields:
+  keywords:
+    label: Keywords
+    type: textarea
+    width: 1/2
+
+  description:
+    label: description
+    type: textarea
+    width: 1/2
+
+  title:
+     label: Title
+     type: title
+
+  titelbild:
+    label: Titelbild
+    type: image
+
+  headline1:
+        label: Überschrift
+        type: Text
+
+  contactoptions:
+    label: Angebote
+    type: structure
+    style: table
+    fields:
+      title:
+        label: Title
+        type: text
+      text:
+        label: Text
+        type: textarea
+
+
+  headline:
+      label: Überschrift
+      type: Text
+
+  contactoptions1:
+    label: Neuigkeiten
+    type: structure
+    style: table
+    fields:
+      title1:
+        label: Title
+        type: text
+      text1:
+        label: Text
+        type: textarea

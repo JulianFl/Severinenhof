@@ -1,0 +1,21 @@
+title: 360°
+
+template: dreihundertsechzig
+
+pages: false
+
+fields:
+  keywords:
+    label: Keywords
+    type: textarea
+    width: 1/2
+
+  description:
+    label: description
+    type: textarea
+    width: 1/2
+
+  title:
+     label: Title
+     type: title
+

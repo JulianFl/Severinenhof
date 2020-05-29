@@ -1,0 +1,27 @@
+title: Impressum
+
+template: imprint
+
+fields:
+
+     keywords:
+      label: Keywords
+      type: textarea
+      width: 1/2
+
+     description:
+      label: description
+      type: textarea
+      width: 1/2
+
+     titelbild:
+          label: Titelbild
+          type: image
+
+     title:
+          label: Title
+          type: title
+
+     impressum:
+          label: Text
+          type: textarea

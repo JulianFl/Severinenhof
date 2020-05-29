@@ -1,0 +1,103 @@
+title: Ferienwohnungen
+
+template: ferienwohnungen
+
+pages: false
+
+
+fields:
+    keywords:
+      label: Keywords
+      type: textarea
+      width: 1/2
+
+    description:
+      label: description
+      type: textarea
+      width: 1/2
+
+    titelbild:
+      label: Titelbild
+      type: image
+
+    title:
+      label: Title
+      type: title
+
+    headline:
+      label: H2
+      type: Text
+
+    box1:
+      label: Text
+      type: textarea
+      width: 1/2
+
+    box2:
+      label: Text
+      type: textarea
+      width: 1/2
+
+    contactoptions1:
+      label: Ferienwohnung U
+      type: structure
+      style: table
+      fields:
+        icon:
+          label: Bild
+          type: image
+        caption1:
+          label: Text
+          type: Text
+
+    headline2:
+      label: H2
+      type: Text
+
+    box1_1:
+      label: Text
+      type: textarea
+      width: 1/2
+
+    box1_2:
+      label: Text
+      type: textarea
+      width: 1/2
+
+    contactoptions2:
+      label: Ferienwohnung O
+      type: structure
+      style: table
+      fields:
+        icon:
+          label: Bild
+          type: image
+        caption2:
+          label: Text
+          type: Text
+
+    headline3:
+      label: H2
+      type: Text
+
+    box1_30:
+      label: Text
+      type: textarea
+      width: 1/2
+
+    box1_40:
+      label: Text
+      type: textarea
+      width: 1/2
+
+    contactoptions3:
+      label: Ferienwohnung B
+      type: structure
+      style: table
+      fields:
+        icon:
+          label: Bild
+          type: image
+        caption2:
+          label: Text
+          type: Text

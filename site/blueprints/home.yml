@@ -1,0 +1,90 @@
+title:
+
+pages: false
+
+template: home
+
+fields:
+  keywords:
+    label: Keywords
+    type: textarea
+    width: 1/2
+
+  description:
+    label: description
+    type: textarea
+    width: 1/2
+
+  title:
+    label: Title
+    type:  text
+
+  slider1:
+    label: Slider1
+    type: image
+    width: 1/3
+
+  slider2:
+    label: Slider2
+    type: image
+    width: 1/3
+
+  slider3:
+    label: Slider3
+    type: image
+    width: 1/3
+
+  Titel:
+    label: Titel
+    type: Text
+
+  severinenhof:
+    label: Der Severinenhof
+    type: textarea
+
+  ueberuns:
+    label: Ueber uns
+    type: textarea
+
+  zuHausequote:
+    label: quoteImage
+    type: image
+    width: 1/4
+
+  zuHause:
+    label: Text
+    type: textarea
+    width: 3/4
+
+  headline:
+    label: Text
+    type: Text
+
+  FerienhausUimg:
+      label: Ferienhaus U Bild
+      type: image
+      width: 1/2
+
+
+ FerienhausOimg:
+      label: Ferienhaus O Bild
+      type: image
+      width: 1/2
+
+ FerienhausU:
+      label: Ferienhaus U Text
+      type: textarea
+      width: 1/2
+
+ FerienhausO:
+      label: Ferienhaus O Text
+      type: textarea
+      width: 1/2
+
+ platzhalter:
+      label: Auflockerungsbild
+      type: image
+
+ headline1:
+      label: Kontakt
+      type: Text
