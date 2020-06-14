@@ -1,5 +1,28 @@
 
+$('.cc-allow').on('click', function() {
+    var ga = "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){" +
+        "(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o)," +
+        "m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)" +
+        "})(window,document,'script','//www.google-analytics.com/analytics.js','ga');" +
+        "ga('create', 'UA-115388787-1', 'auto');" +
+        "ga('send', 'pageview');";
+    $('head').append('<script>' + ga + '</script>');
+
+
+});
+
+$('.iframe button').on('click', function() {
+
+    $('.iframe').append('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.363587843787!2d8.329289210354402!3d48.19151262739484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790c6c4424a0101%3A0xba10fdb7ab1b3a2e!2sSeverinenhof!5e0!3m2!1sde!2sde!4v1508593143536" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>');
+    $('.iframe ').css("border","none");
+    $('.iframe button').css("display","none");
+    $('.Kontakt .more').css("display","inline");
+
+
+});
+
 $(function(){
+
     $('#navbar-example2 a').stop().click(function(){
         if (location.pathname.replace(/^\//,'')=== this.pathname.replace(/^\//,'') && location.hostname===this.hostname){
             var UD_HASH= this.hash;
@@ -21,6 +44,26 @@ $(window).scroll(function () {
 });
 
 $(window).ready(function () {
+
+
+
+/*
+
+        $("a[href*=\"#\"]").on('click', function(event) {
+
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                var hash = this.hash;
+
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+*/
 
     myFunction();
     if($(window).innerWidth() < 1024){

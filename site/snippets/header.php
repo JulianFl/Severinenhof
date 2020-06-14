@@ -23,7 +23,6 @@
     <meta name="robots" content="index, follow" />
 
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115388787-1"></script>
     <script type="text/javascript">
         var gaProperty = 'UA-115388787-1';
         var disableStr = 'ga-disable-' + gaProperty;
@@ -37,27 +36,15 @@
             alert('Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website deaktiviert.');
         }
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'UA-115388787-1');
-    </script>
 
-    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-    <script type="text/javascript">
-        window.cookieconsent_options = {"message":"Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten","dismiss":"Okay!","learnMore":"More info","link":null,"theme":"dark-bottom"};
-    </script>
-
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-    <!-- End Cookie Consent plugin -->
 
 
     <?= css('assets/css/focus.css') ?>
     <?= css('assets/css/bootstrap.min.css') ?>
     <?= css('assets/css/style.css') ?>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
 
 
     <script>

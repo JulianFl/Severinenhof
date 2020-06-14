@@ -25,7 +25,9 @@
               </div>
 
               <div class=" col-md-4">
-                  <a title="Impressum" href="<?= page('impressum')->url() ?>">Impressum</a><br><br>
+                  <a title="Impressum" href="<?= page('impressum')->url() ?>">Impressum</a><br/>
+                  <a title="Datenschutz" href="<?= page('impressum')->url() ?>">Datenschutz</a><br><br>
+
                   <a class="jf" title="Autor Julian Fleig" href="<?= page('impressum')->url() ?>#JulianFleig"><strong>made by Julian Fleig</strong></a>
 
               </div>
@@ -35,7 +37,32 @@
   </footer>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+      window.cookieconsent.initialise({
 
+          "palette": {
+              "popup": {
+                  "background": "#000000",
+                  "text": "#ffffff"
+              },
+              "button": {
+                  "background": "#047a1d",
+                  "text": "#ffffff"
+              }
+          },
+          "theme": "edgeless",
+          "type": "opt-in",
+          "content": {
+              "message": "Wir verwenden Cookies, um Ihnen ein optimales Webseiten-Erlebnis zu bieten. Dazu zählen Cookies, die zu anonymen Statistikzwecken genutzt werden. Sie können selbst entscheiden, ob Sie Cookies zulassen möchten. Weitere Informationen finden Sie im Datenschutz.",
+              "deny": "Ablehnen",
+              "allow": "Akzeptieren",
+              "link": "Datenschutz",
+              "href": "/impressum"
+
+          }
+      });
+  </script>
 
   <script>var hive_cfg_typoscript__windowLoad=!0;</script>
 
@@ -46,6 +73,7 @@
       'assets/js/bootstrap.bundle.min.js',
       'assets/js/script.js',
   )) ?>
+
 
 
     </body>

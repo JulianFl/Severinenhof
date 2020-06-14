@@ -13,15 +13,6 @@
     </article>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-12 col-xl-12">
-                <?php $detect = new Mobile_Detect;
-                if( $detect->isMobile() && !$detect->isTablet() ):
-
-                else:?>
-                    <a role="button" href="<?= page('360')->url() ?>" class="abutton">Severinenhof in 360°</a>
-
-
-                <?php endif; ?>
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                        <div class="start active carousel-item ">
@@ -62,7 +53,6 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-            </div>
         </div>
     </div>
 </section>
@@ -136,7 +126,29 @@
                          <?= $page->FerienhausO()->kirbytext() ?>
                         <div class="margin-button">
 
-                        <a role="button" title="Ferienwohnung O" href="<?= page('ferienwohnungen')->url() ?>#FerienwohnungO" class="abutton">Mehr</a>
+                        <a title="Ferienwohnung O" href="<?= page('ferienwohnungen')->url() ?>#FerienwohnungO" class="abutton">Mehr</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <div class="card" >
+                    <div class="tx-hive-cpt-cnt-img   ">
+                        <div class="landscape aR aR--16_9">
+                            <figure class="focuhila">
+                                <img class="card-img-top b-lazy opacity_0" style="object-fit: cover; object-position: center center; height: 300px;"src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-echo="<?= page('ferienwohnungen')->url()?>/<?= page('ferienwohnungen')->contactoptions3()->toStructure()->first()->icon()?>?>"  alt="Ferienwohnung O" title="Ferienwohnung O" >
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4><strong>Ferienwohnung B</strong></h4>
+                        <p><?= page('ferienwohnungen')->box1_30()->excerpt(200, 'words') ?>
+                        </p>
+                        <div class="margin-button">
+
+                            <a  title="Ferienwohnung B" href="<?= page('ferienwohnungen')->url() ?>#FerienwohnungB" class="abutton">Mehr</a>
                         </div>
                     </div>
                 </div>
@@ -158,14 +170,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.363587843787!2d8.329289210354402!3d48.19151262739484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790c6c4424a0101%3A0xba10fdb7ab1b3a2e!2sSeverinenhof!5e0!3m2!1sde!2sde!4v1508593143536" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.363587843787!2d8.329289210354402!3d48.19151262739484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790c6c4424a0101%3A0xba10fdb7ab1b3a2e!2sSeverinenhof!5e0!3m2!1sde!2sde!4v1508593143536" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                <div class="iframe" style="">
+                    <button  class="abutton">Karte anzeigen</button>
+
+                </div>
+                <div class="margin-button">
+
+                    <a title="zum Kontakt" href="<?= page('kontakt')->url() ?>" class="abutton more">Mehr</a>
+                </div>
             </div>
         </div>
     <div>
-        <div class="margin-button">
 
-        <a role="button" title="zum Kontakt" href="<?= page('kontakt')->url() ?>" class="abutton">Mehr</a>
-        </div>
 </section>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
