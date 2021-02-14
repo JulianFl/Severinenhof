@@ -1,15 +1,6 @@
 <?php snippet('header') ?>
 
-    <nav id="navbar-example2" class="navbar navbar-light justify-content-end bg-light ">
-        <ul class="nav nav-pills navSeverinenhof">
-            <li class="nav-item">
-                <a class="nav-link" title="Spiel und Spass" href="#spielundspass">Spiel & Spaß</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" title="Viechereien" href="#viechereien">Viechereien</a>
-            </li>
-        </ul>
-    </nav>
+
 
     <section class="header-bild-Severinenhof">
         <div class="container-fluid">
@@ -38,59 +29,21 @@
         </div>
     </section>
 
-    <section class="severinenhof1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <?= $page->severinenhof1()->kirbytext() ?>
 
-                </div>
-                <div class="col-md-6">
-                    <?= $page->severinenhof2()->kirbytext() ?>
+<section class="severinenhof1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <?= $page->severinenhof1()->kirbytext() ?>
 
-                </div>
+            </div>
+            <div class="col-md-6">
+                <?= $page->severinenhof2()->kirbytext() ?>
+
             </div>
         </div>
-    </section>
-
-    <a class="anker" id="spielundspass"></a>
-    <section class="SpielSpass">
-        <h2><?= $page->headline1()->html() ?></h2>
-
-           <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-
-                    <?= $page->spielundspass()->kirbytext() ?>
-
-                </div>
-                <div class="col-md-6">
-                    <?= $page->spielundspass1()->kirbytext() ?>
-
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container">
-            <div class="row">
-                <?php foreach($page->contactoptions()->toStructure() as $item): ?>
-
-                <div class="col-12 col-md-4">
-                    <?php $icon = $page->image($item->icon()); ?>
-                    <div class="tx-hive-cpt-cnt-img">
-                        <div class="square aR">
-                            <figure class="focuhila">
-                                <img class="card-img-top b-lazy opacity_0" style="object-fit: cover; object-position: 50% 50%; height: 300px;"src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-echo="<?= $icon->url() ?>" title="<?= $item->alt()->html() ?>" alt="<?= $item->alt()->html() ?>">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <?php endforeach ?>
-            </div>
-        </div>
-    </section>
-    <a class="anker" id="viechereien"></a>
+    </div>
+</section>
 
     <section class="Viechereien">
         <h2><?= $page->headline2()->html()?></h2>

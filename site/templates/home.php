@@ -156,6 +156,9 @@
         </div>
     </div>
 </section>
+
+
+
 <section class="platzhalter ">
     <div class="tx-hive-cpt-cnt-img   ">
         <div class="landscape aR aR--21_5">
@@ -165,6 +168,49 @@
         </div>
     </div>
 </section>
+
+
+<?php $spielspass = page('spiel-spass'); ?>
+
+
+<section class="SpielSpass">
+    <h2><?= $spielspass->title()->html() ?></h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+
+                <?= $spielspass->spielundspass()->kirbytext() ?>
+
+            </div>
+            <div class="col-md-6">
+                <?= $spielspass->spielundspass1()->kirbytext() ?>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <?php foreach($spielspass->contactoptions()->toStructure() as $item): ?>
+
+                <div class="col-12 col-md-4">
+                    <?php $icon = $spielspass->image($item->icon()); ?>
+                    <div class="tx-hive-cpt-cnt-img">
+                        <div class="square aR">
+                            <figure class="focuhila">
+                                <img class="card-img-top b-lazy opacity_0" style="object-fit: cover; object-position: 50% 50%; height: 300px;"src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="  data-echo="<?= $icon->url() ?>" title="<?= $item->alt()->html() ?>" alt="<?= $item->alt()->html() ?>">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            <?php endforeach ?>
+        </div>
+    </div>
+</section>
+
+
 <section class="Kontakt">
     <?= $page->headline1()->kirbytext() ?>
     <div class="container">

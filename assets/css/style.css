@@ -55,7 +55,7 @@ h2:before {
 .ueberuns h2:before{content: '';
     width:40px;
     margin-left: -60px;
-    top:4.4rem;
+    top: calc(50% - 1.5px);
     height: 3px;
     background-color: white;
     position: absolute;
@@ -63,7 +63,7 @@ h2:before {
 .ueberuns h2:after{content: '';
     width:40px;
     margin-left: 20px;
-    top:4.4rem;
+    top:calc(50% - 1.5px);
     height: 3px;
     background-color:  white ;
     position: absolute;
@@ -162,7 +162,7 @@ article .container .row{height: 100%}
 .ueberuns .col-lg-9{position: relative;margin: 0;padding: 0;background-image: url("../../content/1-home/Family.jpg");background-size: cover;background-position: center center}
 .ueberuns .col-lg-3 {background-color: var(--akzentfarbe);position: relative;padding:3% 1%; min-height: 700px}
 .ueberuns .col-lg-3 p{color: white;text-align: left;font-size: 1rem}
-.ueberuns .col-lg-3 h2{color: white;margin-bottom: 10px !important}
+.ueberuns .col-lg-3 h2{color: white;margin-bottom: 10px !important;position: relative}
 /*---------------zuHause-------------*/
 .zuHause{position: absolute;margin: 0;z-index: 4;top: 600px;background-color:var(--akzentfarbe) ;width:300px !important;height:200px; margin-left: 100px !important; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .zuHause p{padding-top: 20px;font-size: 1.3rem;   color: white;}
@@ -210,7 +210,10 @@ footer .col-md-4 strong{border-top: white solid 1px;
 /*---------------SpielSpass-------------*/
 .SpielSpass{margin-bottom: 10px}
 .SpielSpass .col-12{margin-bottom: 20px}
-.SpielSpass .col-md-6{text-align: center;}
+.SpielSpass .col-md-6 ul{
+    padding-left: 1rem;}
+.SpielSpass .col-md-6 ul li{text-align: left;}
+.SpielSpass .col-md-6 ul li::marker{content: "- " ;color: #047a1d;font-size: 1.3rem}
 .SpielSpass .row{margin-bottom: 20px}
 .SpielSpass img:hover{
     -webkit-transform:scale(1.1,1.1);

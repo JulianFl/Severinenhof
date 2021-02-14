@@ -73,7 +73,7 @@
                         <div class="card-header" role="tab" id="headingTwo">
                             <h5 class="mb-0">
                                 <a> <!--class="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">-->
-                                    Ferienwohnung "O"h wie ist das schön
+                                    Ferienwohnung "O"h wie schön
                                 </a>
                             </h5>
                         </div>

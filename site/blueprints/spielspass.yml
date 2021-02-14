@@ -1,0 +1,50 @@
+title: spielspass
+
+template: spielspass
+
+files: true
+
+fields:
+  keywords:
+    label: Keywords
+    type: textarea
+    width: 1/2
+
+  description:
+    label: description
+    type: textarea
+    width: 1/2
+
+  titelbild:
+    label: Titelbild
+    type: image
+
+  title:
+    label: Title
+    type: title
+
+  headline1:
+      label: Überschrift
+      type: Text
+
+  spielundspass:
+    label: Text
+    type: textarea
+    width: 1/2
+
+  spielundspass1:
+    label: Text
+    type: textarea
+    width: 1/2
+
+  contactoptions:
+        label: Spiel & Spass
+        type: structure
+        style: table
+        fields:
+          icon:
+            label: Bild
+            type: image
+          alt:
+            label: Text
+            type: Text

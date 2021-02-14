@@ -22,7 +22,7 @@ fields:
   title:
     label: Title
     type: title
-    
+
   severinenhof1:
     label: Text
     type: textarea
@@ -32,32 +32,6 @@ fields:
     label: Text
     type: textarea
     width: 1/2
-
-  headline1:
-      label: Überschrift
-      type: Text
-
-  spielundspass:
-    label: Text
-    type: textarea
-    width: 1/2
-
-  spielundspass1:
-    label: Text
-    type: textarea
-    width: 1/2
-
-  contactoptions:
-        label: Spiel & Spass
-        type: structure
-        style: table
-        fields:
-          icon:
-            label: Bild
-            type: image
-          alt:
-            label: Text
-            type: Text
 
   headline2:
       label: Überschrift2
